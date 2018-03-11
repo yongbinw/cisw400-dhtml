@@ -1,0 +1,28 @@
+body { background-color: #6cca84;}
+main { position: relative;}
+
+/*thumbnails*/
+main > #thumbnails > div {
+    width: 105px;
+    height: 65px;
+    cursor: pointer;
+    position: absolute;
+    border: medium inset #fff;
+    top: 20px;
+}
+main > #thumbnails > #thumb1 { left: 100px;}
+main > #thumbnails > #thumb2 { left: 215px;}
+main > #thumbnails > #thumb3 { left: 330px;}
+main > #thumbnails > #thumb4 { left: 445px;}
+main > #thumbnails > #thumb5 { left: 560px;}
+
+/*Big picture*/
+main > #big_pict {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 2px 2px 5px #111;
+
+}
